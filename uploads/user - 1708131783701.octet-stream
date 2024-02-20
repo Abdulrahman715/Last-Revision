@@ -1,0 +1,4 @@
+img = imread('p.png');
+[row,col,tt] = size(img);
+img =img - 100;
+imshow('p.png'),figure,imshow(img);
